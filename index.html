@@ -30,7 +30,7 @@
   <h1 style="color:red; font-size:30px;"><strong>TLLF</strong></h1>
 
         <ul class="list">
-          <li><a href="#" onlick="showSection(attendance-section)">Take attendance</a></li>
+          <li><a href="#attendance-section" onclick="showSection(attendance-section)">Take attendance</a></li>
           <li><a href="#">Exam</a></li>
           <li><a href="#">Secretary</a></li>
           <li>
@@ -46,6 +46,12 @@
       </div>
     </div>
   </div>
+
+  <section id="attendance-section" class="attendance-section">
+    <h1>HELLO</h1>
+</section>
+
+  
 <script>
     function showSection(sectionId) {
         document.querySelectorAll('section').forEach(section => {
