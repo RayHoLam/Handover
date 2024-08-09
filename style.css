@@ -117,12 +117,12 @@ body {
 }
 .btn-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .button:nth-child(1) {
   border-top-left-radius: 0.5rem;
 }
-.button:nth-child(4) {
+.button:nth-child(3) {
   border-top-right-radius: 0.5rem;
 }
 .button {
